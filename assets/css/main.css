@@ -1,24 +1,31 @@
 body {
-    background-color: #7de;
-}
-.banner {
     width: 1680px;
     height: 800px;
-    background-image: url("Portfolio Website Banner 2018.png")
+    background-image: url("4016x5000px Headshot.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
+
 h1 {
-    text-align: center; 
+    text-align: left; 
     margin-top: 3%; 
+    color:#F4F3F2;
+    margin-left: 3%;
+    
 }
 
 h2 {
-    text-align: center; 
+    text-align: left; 
+    color:#F4F3F2;
+    margin-left: 3%;
 }
 .nav {
     position: absolute;
     top: 95%;
-    left: 38.5%; 
+    left: 36.7%; 
 
 }
 button {
@@ -26,6 +33,7 @@ button {
     font-size: 25px; 
     border: none; 
     text-decoration: underline; 
+    text-transform: uppercase; 
 }
 
 .current-projects {
@@ -50,7 +58,8 @@ button {
     display: inline-block;
     margin-left: 10%; 
     width: 100px; 
-    text-align: center;
+    height: 100px; 
+    
    
     
 }
