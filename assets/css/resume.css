@@ -1,0 +1,76 @@
+.banner {
+    width: 1680px;
+    height: 900px;
+    opacity: 0.8;
+    background-image: url("Placeholder.png");
+    
+}
+
+.banner-content {
+    position: absolute;
+    top: 70%;
+    right: 35%; 
+    width: 500px; 
+    height: 300px; 
+    text-align: center; 
+}
+
+header {
+    text-align: center; 
+    color:black;
+    font-size: 35px; 
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    margin-bottom: 2%; 
+ 
+  
+}
+
+h2 {
+    text-align: center; 
+    margin-top: 10%; 
+    color:black;
+    font-size: 30px; 
+    font-family: 'Oswald', sans-serif;  
+     
+}
+.nav {
+    position: absolute;
+    top: 11.7%;
+    right: 4.5%; 
+
+}
+button {
+    background: transparent;
+    font-size: 25px; 
+    border: none; 
+    text-transform: uppercase; 
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  
+
+}
+
+.resume-button {
+    margin-top: 2%; 
+    border: solid white 8px; 
+    background: transparent;
+    font-size: 25px; 
+    text-transform: uppercase; 
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+     
+}
+
+button:hover {
+    background-color: #1BB4EA; 
+    color: white;
+}
+.resume-button:hover {
+    background-color: #1BB4EA; 
+    color: white;
+    border: solid white 8px; 
+
+}
