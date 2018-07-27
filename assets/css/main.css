@@ -25,6 +25,7 @@ button {
     background: transparent;
     font-size: 25px; 
     border: none; 
+    text-decoration: underline; 
 }
 
 .current-projects {
@@ -50,7 +51,7 @@ button {
     margin-left: 10%; 
     width: 100px; 
     text-align: center;
-    text-decoration: underline; 
+   
     
 }
 
