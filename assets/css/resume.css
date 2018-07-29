@@ -3,10 +3,8 @@
     height: 900px;
     opacity: 0.8;
     /*background-image: url("Placeholder.png");*/
-    background-color:grey;
-    
+    background-color:grey;  
 }
-
 .banner-content {
     position: absolute;
     top: 10%;
@@ -15,7 +13,6 @@
     height: 300px; 
     text-align: center; 
 }
-
 header {
     text-align: center; 
     color:black;
@@ -23,9 +20,7 @@ header {
     font-family: 'Oswald', sans-serif;
     position: absolute;
     margin-bottom: 2%; 
- 
 }
-
 .page-header {
     text-align: center; 
     color:black;
@@ -35,22 +30,18 @@ header {
     margin-bottom: 2%; 
     margin-left: 29%;
 }
-
 h2 {
     text-align: center; 
     margin-top: 10%; 
     color:black;
     font-size: 30px; 
     font-family: 'Oswald', sans-serif;  
-    margin-left: 5%;
-    
-     
+    margin-left: 5%;   
 }
 .nav {
     position: absolute;
     top: 11.7%;
     right: 4.5%; 
-
 }
 button {
     background: transparent;
@@ -60,10 +51,7 @@ button {
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-  
-
 }
-
 .resume-button {
     margin-top: 80%; 
     margin-left: 7%;
@@ -73,10 +61,8 @@ button {
     text-transform: uppercase; 
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-     
+    transition-duration: 0.4s;  
 }
-
 button:hover {
     background-color: #1BB4EA; 
     color: white;
@@ -96,6 +82,6 @@ button:hover {
     text-transform: uppercase; 
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-     
+    transition-duration: 0.4s; 
 }
+
