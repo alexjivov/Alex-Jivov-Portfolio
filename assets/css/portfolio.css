@@ -1,6 +1,6 @@
 .banner {
     width: 1680px;
-    height: 860px;
+    height: 900px;
     opacity: 0.8;
     /*background-image: url("Placeholder.png");*/
     background-color:grey;  
@@ -52,40 +52,8 @@ button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
-.resume-button {
-    margin-top: 90%; 
-    margin-left: 7%;
-    border: solid white 8px; 
-    background: transparent;
-    font-size: 25px; 
-    padding-left: 7px;
-    padding-right: 7px; 
-    text-transform: uppercase; 
-    text-decoration: none; 
-    color: black; 
-    font-family: 'Oswald', sans-serif;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;  
-}
+
 button:hover {
     background-color: #1BB4EA; 
     color: white;
 }
-.resume-button:hover {
-    background-color: #1BB4EA; 
-    color: white;
-    border: solid white 8px; 
-}
-.scroll-button {
-    width: 220px;
-    margin-top:5%;
-    margin-left: 7%;
-    border: solid white 8px; 
-    background: transparent;
-    font-size: 25px; 
-    text-transform: uppercase; 
-    font-family: 'Oswald', sans-serif;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s; 
-}
-

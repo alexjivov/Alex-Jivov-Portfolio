@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #1BB4EA; /* Green */
+    background-color: #1BB4EA;
     color: white;
 
 
@@ -84,10 +84,19 @@ button:hover {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     display: inline-block;
-    margin-left: 10%; 
+    margin-left: 12%; 
+    text-decoration: none; 
+    color: black; 
     width: 350px; 
     height: 200px; 
     margin-top: 2%; 
+    text-align: center; 
+}
+
+.project-button:hover {
+    background-color: #1BB4EA;
+    color: white;
+
 }
 
 .bio {
