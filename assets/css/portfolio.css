@@ -45,9 +45,33 @@ h2 {
 }
 
 .portfolio-container {
-    display: inline-grid;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width:1600px;
+    height: 860px; 
+
 }
+
+grid {
+    margin: 22px auto 22px auto;
+    display:grid;
+    width: 60%;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-rows: repeat(3, 250px);
+    grid-gap: 20px;
+
+ 
+ }
+
+.img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
+    height: 100px;
+    width: 100px;
+    background-color: white; 
+}
+
+ 
 button {
     background: transparent;
     font-size: 25px; 
