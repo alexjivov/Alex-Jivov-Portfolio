@@ -1,4 +1,4 @@
-body {
+html {
     width: 1680px;
     height: 900px;
     opacity: 0.8;
@@ -7,13 +7,16 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-repeat: no-repeat; 
    
 }
 .banner {
     width: 1680px;
     height: 900px;
+    background-repeat: no-repeat; ;
  
 }
+
 .banner-content {
     position: absolute;
     top: 20%;
@@ -25,12 +28,19 @@ body {
     border-radius: 10%; 
 }
 
+.resume-body {
+    text-align: left; 
+    width: 450px; 
+    padding-left: 3%; 
+    font-family: 'Oswald', sans-serif;
+}
+
 .link-content {
     position: absolute;
     top: 100%;
     right: 32%; 
     width: 600px; 
-    height: 300px; 
+    height: 200px; 
     text-align: center; 
     color: white; 
 }
