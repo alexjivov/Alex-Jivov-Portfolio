@@ -4,7 +4,6 @@ body {
 .banner {
     width: 1680px;
     height: 860px;
-    opacity: 0.8;
     /*background-image: url("Placeholder.png");*/
     background-color:grey;  
 }
@@ -69,11 +68,56 @@ grid {
 .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8, .img-9 {
     height: 250px;
     width: 250px;
-    background-color: white;
+
     text-align: center; 
 }
+.img-1 {
+    background-image: url("bitcoin_icon.jpg");
 
- 
+}
+
+.img-2 {
+    background-image: url("question_mark.png");
+    background-color: white; 
+}
+
+.img-3 {
+    background-image: url("train_icon.jpg");
+}
+
+.img-4 {
+    background-image: url("MEAN_icon.png");
+    background-color: white; 
+}
+
+.img-5 {
+    background-image: url("API_icon.jpg");
+    background-color: white; 
+}
+
+.img-6 {
+    background-image: url("nyt_icon.jpg");
+    background-color: white; 
+  
+}
+
+.img-7 {
+    background-image: url("node_icon.png");
+    background-color: white; 
+  
+}
+
+.img-8 {
+    background-image: url("ecommerce_icon.png");
+    background-color: white; 
+  
+}
+
+.img-9 {
+    background-image: url("jquery_icon.png");
+    background-color: white; 
+  
+}
 button {
     background: transparent;
     font-size: 25px; 

@@ -17,10 +17,12 @@ body {
 .banner-content {
     position: absolute;
     top: 20%;
-    right: 32%; 
-    width: 600px; 
-    height: 300px; 
+    left: 3%; 
+    width: 500px; 
+    height: 800px; 
     text-align: center; 
+    background-color: grey; 
+    border-radius: 10%; 
 }
 
 .link-content {
@@ -43,18 +45,18 @@ header {
 }
 .page-header {
     text-align: center; 
-    color:black;
+    color:white;
     font-size: 35px; 
     font-family: 'Oswald', sans-serif;
     position: absolute;
     margin-bottom: 2%; 
-    margin-left: 29%;
+    margin-left: 22%;
 }
 h2 {
     text-align: center; 
     margin-top: 10%; 
     color:white;
-    font-size: 30px; 
+    font-size: 20px; 
     font-family: 'Oswald', sans-serif;  
     margin-left: 5%;   
 }
