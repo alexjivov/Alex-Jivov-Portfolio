@@ -1,17 +1,22 @@
-
-.banner {
+body {
     width: 1680px;
-    height: 1050px;
+    height: 900px;
     opacity: 0.8;
-    background-image: url("Placeholder.png");
+    background-image: url("Portfolio.png");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+   
+}
+.banner {
+    width: 1680px;
+    height: 900px;
+ 
 }
 .banner-content {
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 32%; 
     width: 600px; 
     height: 300px; 
@@ -20,11 +25,12 @@
 
 .link-content {
     position: absolute;
-    top: 80%;
+    top: 100%;
     right: 32%; 
     width: 600px; 
     height: 300px; 
     text-align: center; 
+    color: white; 
 }
 header {
     text-align: center; 
@@ -33,6 +39,7 @@ header {
     font-family: 'Oswald', sans-serif;
     position: absolute;
     margin-bottom: 2%; 
+
 }
 .page-header {
     text-align: center; 
@@ -46,7 +53,7 @@ header {
 h2 {
     text-align: center; 
     margin-top: 10%; 
-    color:black;
+    color:white;
     font-size: 30px; 
     font-family: 'Oswald', sans-serif;  
     margin-left: 5%;   
@@ -55,6 +62,7 @@ h2 {
     position: absolute;
     top: 2%;
     right: 2%; 
+    color: white; 
 }
 button {
     background: transparent;
@@ -64,6 +72,7 @@ button {
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    color: white; 
 }
 .resume-button {
     margin-top: 110%; 
@@ -75,7 +84,7 @@ button {
     padding-right: 7px; 
     text-transform: uppercase; 
     text-decoration: none; 
-    color: black; 
+    color: white; 
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;  
