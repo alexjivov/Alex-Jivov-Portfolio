@@ -115,7 +115,7 @@ h2 {
     right: 2%; 
     color: black; 
 }
-button {
+.button {
     background: transparent;
     font-size: 25px; 
     border: none; 
@@ -124,6 +124,7 @@ button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     color: white; 
+    text-decoration: none; 
 }
 .resume-button {
     margin-top: 18%; 
@@ -139,7 +140,7 @@ button {
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;  
 }
-button:hover {
+.button:hover {
     background-color: #1BB4EA; 
     color: white;
 }

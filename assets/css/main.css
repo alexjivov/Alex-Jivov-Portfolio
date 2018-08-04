@@ -34,7 +34,7 @@ h2 {
     right: 4.1%; 
 
 }
-button {
+.button {
     background: transparent;
     font-size: 25px; 
     border: none; 
@@ -42,9 +42,11 @@ button {
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    text-decoration: none; 
+    color: black; 
 }
 
-button:hover {
+.button:hover {
     background-color: #1BB4EA;
     color: white;
 
