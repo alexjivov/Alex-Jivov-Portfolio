@@ -9,11 +9,12 @@ body {
 }
 .banner-content {
     position: absolute;
-    top: 10%;
-    right: 32%; 
+    top: 23%;
+    left: 3%; 
     width: 600px; 
-    height: 300px; 
+    height: 843px; 
     text-align: center; 
+    border-radius: 10%; 
 }
 header {
     text-align: center; 
@@ -30,7 +31,14 @@ header {
     font-family: 'Oswald', sans-serif;
     position: absolute;
     margin-bottom: 2%; 
-    margin-left: 32%;
+    margin-left: 3%;
+    height: 843px; 
+    background-color: white;
+    opacity: 0.9; 
+    border-radius: 10%; 
+    padding-left: 1%;
+    padding-right: 1%; 
+    width: 50%; 
 }
 h2 {
     text-align: center; 
@@ -46,21 +54,23 @@ h2 {
     right: 2%; 
 }
 
-.portfolio-container {
-    width:1600px;
-    height: 700px; 
-
-}
 
 grid {
     margin: 22px auto 22px auto;
     display:grid;
-    margin-top: 12%; 
+    margin-top: 12%;
+    margin-left: 27%; 
     width: 60%;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-template-rows: repeat(3, 250px);
     grid-gap: 30px;
-    background-color: transparent;
+    background-color: white;
+    opacity: 0.9; 
+    border-radius: 10%; 
+    padding-left: 5%; 
+    padding-top: 1%;
+    padding-bottom: 1%; 
+    
 
  
  }
@@ -118,7 +128,7 @@ grid {
     background-color: white; 
   
 }
-button {
+.button {
     background: transparent;
     font-size: 25px; 
     border: none; 
@@ -126,9 +136,11 @@ button {
     font-family: 'Oswald', sans-serif;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    text-decoration: none;
+    color: white; 
 }
 
-button:hover {
+.button:hover {
     background-color: #1BB4EA; 
     color: white;
 }
