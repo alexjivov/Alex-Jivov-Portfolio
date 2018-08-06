@@ -9,7 +9,7 @@ body {
 }
 .banner-content {
     position: absolute;
-    top: 23%;
+    top: 6.5%;
     left: 3%; 
     width: 600px; 
     height: 843px; 
@@ -50,15 +50,15 @@ h2 {
 }
 .nav {
     position: absolute;
-    top: 2%;
-    right: 2%; 
+    top: 1%;
+    right: 9%; 
 }
 
 
 grid {
     margin: 22px auto 22px auto;
     display:grid;
-    margin-top: 12%;
+    margin-top: 3%;
     margin-left: 27%; 
     width: 60%;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
